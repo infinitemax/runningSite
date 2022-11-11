@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>The running site</title>
+</head>
+<body>
+  <h1>Welcome to the running site</h1>
+
+  <h3>How far did you run (km)?</h3>
+  <input type="text" id="distanceInput" placeholder="Distance">
+
+
+  <h3>How long did it take you (in minutes, soz)?</h3>
+  <input type="text" id="timeInput" placeholder="Time">
+  <br>
+  <input type="button" id="doCalcsBtn" value="Calculate!">
+
+
+<div id="calcsContainer">
+  <p id="speed">Your speed was: </p>
+  <p id="timePerKm">Your time per km was: </p>
+  <p id="5k">If you were to run a 5k it would take you: </p>
+  <p id="marathon">If you were to run a marathon it would take you:</p>
+</div>
+
+  <p>In animal form you are:<span id="animalSpan"></span></p>
+  <div id="animalDiv"></div>
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>

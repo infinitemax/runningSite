@@ -1,0 +1,26 @@
+body {
+  background-color: wheat;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+#doCalcsBtn {
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+#calcsContainer {
+  background-color: red;
+}
+
+#animalDiv {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  background-image: url("images/pexels-pixabay-356079.jpeg");
+  background-size: cover;
+}
